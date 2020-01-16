@@ -7,7 +7,8 @@ export const useDarkMode = (key) => {
     useEffect(() => {
         const body = document.querySelector('body');
         value ? body.classList.add('dark-mode') : body.classList.remove('dark-mode');
-    }, [key])
+        // value ? document.getElementsByTagName(".Line").setAttribute("stroke", "green") : 
+    }, [value])
 
     return [value, setValue];
 }
