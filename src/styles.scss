@@ -250,4 +250,19 @@ text-align: left;
     background-color: #1F2022;
     border: none;
   }
+
+  path {
+    stroke: red;
+    stroke-width: 1.5;
+  }
+
+  circle {
+    stroke: yellow;
+    stroke-width: 2.5;
+  }
+
+  text {
+    color: #d4d4d4;
+    font-weight: bold;
+  }
 }
